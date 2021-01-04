@@ -7,38 +7,13 @@
     "cpu": "cortex-m4",
     "extra_flags": "-DNRF52810_XXAA -DNRF52",
     "f_cpu": "64000000L",
-    "hwids": [
-      [
-        "0x239A",
-        "0x8029"
-      ],
-      [
-        "0x239A",
-        "0x0029"
-      ],
-      [
-        "0x239A",
-        "0x002A"
-      ],
-      [
-        "0x239A",
-        "0x802A"
-      ]
-    ],
-    "usb_product": "Generic nRF52810",
     "mcu": "nrf52810",
-    "variant": "generic_nrf52810",
-    "bsp": {
-      "name": "generic"
-    },
+    "variant": "Generic",
     "softdevice": {
       "sd_flags": "-DS132",
       "sd_name": "s132",
       "sd_version": "6.1.1",
       "sd_fwid": "0x00B7"
-    },
-    "zephyr": {
-       "variant": "nrf52_generic"
     }
   },
   "connectivity": [
@@ -46,11 +21,10 @@
   ],
   "debug": {
     "jlink_device": "nRF52810_xxAA",
-    "svd_path": "nrf52.svd"
+    "svd_path": "nrf52810.svd"
   },
   "frameworks": [
-    "arduino",
-    "zephyr"
+    "arduino"
   ],
   "name": "Generic nRF52810",
   "upload": {
